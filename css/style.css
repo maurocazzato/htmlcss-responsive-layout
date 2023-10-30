@@ -179,6 +179,19 @@ a{
 .testimonial-card p{
     color: white;
 }
+.testimonial-img{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.testimonial-img img{
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+}
 
 .testimonial-name{
     font-family:'PT Sans', sans-serif;
@@ -269,6 +282,24 @@ a{
     padding: 5px;
     text-align: left;
     margin: 40px 0px 40px 0px;
+}
+#aboutus-img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+#aboutus-img img{
+    width: 100%;
+    height: auto;
+}
+.aboutus-card span{
+    color:rgba(151,146,228,255) ;
+    font-size: 150px;
+    position: absolute;
+    right: 0;
+    top:0;
 }
 /* section get started */
 #getstarted{
