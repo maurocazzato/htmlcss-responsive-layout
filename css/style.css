@@ -1,0 +1,272 @@
+/* style generali */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+
+i{
+    color: white;
+}
+
+p{
+    font-family:'PT Sans', sans-serif;
+    font-size: 12px;
+    line-height: 25px;
+}
+span{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-family:'PT Sans', sans-serif;
+    color: white;
+}
+.card-icon{
+    text-align: center;
+    font-size: 100px;
+}
+
+.planning-title{
+    font-family:'PT Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+    font-weight: bold;
+}
+
+
+
+
+/* header */
+.container-header{
+    width: 100%;
+    background-color: rgba(0,132,253,255);
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.row-header{
+    width: calc(100%/2);
+}
+
+#bars{
+   text-align: right;
+   font-size: 30px;
+}
+#img-header{
+    width: 40%;
+}
+/* main */
+.container{
+    width: 100%;
+    padding: 30px;
+}
+.container-viola{
+    width: 100%;
+    background-color: rgba(151,146,228,255);
+    padding: 30px;
+}
+
+/* section card */
+.card{
+    background-color: rgba(181,221,255,255);
+    border-radius: 10%;
+    margin: 30px;
+    padding: 40px;
+    
+}
+.card p{
+    text-align: center;
+}
+.card-title{
+    font-family:'PT Sans', sans-serif;
+    font-size: 20px;
+    color: rgba(0,132,253,255);
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.card-bottom{
+    background-color: rgba(0,132,253,255);
+    border-radius: 10%;
+    padding: 5px;
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+}
+#card-img{
+    margin-bottom: -45px;
+}
+
+.card i{
+    color:rgba(0,132,253,255);
+}
+/* section planning */
+.planning{
+    margin: 30px;
+    padding: 40px; 
+}
+
+.planning p{
+    color: white;
+    text-align: left;
+    line-height: 25px;
+    margin-top: 40px;
+}
+.planning-card{
+    background-color: white;
+    border-radius: 10%;
+    margin: 30px;
+    padding: 40px; 
+}
+
+.planning-card .planning-title{
+    font-family:'PT Sans', sans-serif;
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+    font-weight: bold;
+}
+
+.planning-card p{
+    font-style: italic;
+    margin: 40px 0px 40px 0px;
+    text-align: center;
+}
+.planning-bottom{
+    background-color: rgba(151,146,228,255);
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    margin: 40px 150px 40px 150px;
+}
+
+.planning-bottom i{
+    color: black;
+    font-size: 40px;
+}
+
+/* section testimonials */
+#testimonials{
+    font-family:'PT Sans', sans-serif;
+    font-size: 15px;
+    margin: 100px 0px 40px 0px;
+    font-weight:lighter;
+}
+.testimonial-title{
+    font-family:'PT Sans', sans-serif;
+    font-size: 40px;
+    color:rgba(151,146,228,255);
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+    font-weight: bold;
+}
+.testimonial-card{
+    background-color: rgba(151,146,228,255);
+    border-radius: 10%;
+    margin: 30px;
+    padding: 40px;
+}
+
+.testimonial-card p{
+    color: white;
+}
+
+.testimonial-name{
+    font-family:'PT Sans', sans-serif;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    font-weight: bold;
+}
+#testimonal-container{
+    text-align: center;
+}
+/* section benefit */
+.Benefit-title{
+    font-family:'PT Sans', sans-serif;
+    font-size: 40px;
+    color:white;
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+    font-weight: bold;
+}
+
+.benefit-card{
+    background-color:white;
+    border-radius: 10%;
+    margin: 30px;
+    padding: 40px;
+}
+
+.card-number{
+    font-family:'PT Sans', sans-serif;
+    font-size: 40px;
+    color: rgba(151,146,228,255);
+    text-align:left;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.benefitcard-title{
+    font-family:'PT Sans', sans-serif;
+    font-size: 20px;
+    color: rgba(151,146,228,255);
+    text-align:left;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.benefit-card p{
+    text-align: left;
+}
+.benefit-bottom{
+    background-color: rgba(151,146,228,255);
+    border-radius: 10%;
+    padding: 5px;
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+}
+
+/* section aboutus */
+#aboutus-container{
+    text-align: left;
+}
+.aboutus-title{
+    font-family:'PT Sans', sans-serif;
+    font-size: 40px;
+    color:rgba(151,146,228,255);
+    text-align:left;
+    margin: 40px 0px 40px 0px;
+    font-weight: bold;
+}
+#aboutus-container p{
+    margin: 40px 0px 40px 0px;
+}
+.aboutus-card{
+    background-color:white;
+    border-radius: 10%;
+    padding: 40px;
+}
+.aboutuscard-title{
+    font-family:'PT Sans', sans-serif;
+    font-size: 30px;
+    color: rgba(151,146,228,255);
+    text-align:left;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.aboutus-bottom{
+    background-color: rgba(151,146,228,255);
+    border-radius: 10%;
+    padding: 5px;
+    text-align: left;
+    margin: 40px 0px 40px 0px;
+}
