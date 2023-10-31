@@ -31,56 +31,66 @@ a{
     text-align: center;
     font-size: 100px;
 }
-
-.planning-title{
-    font-family:'PT Sans', sans-serif;
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    margin: 40px 0px 40px 0px;
-    font-weight: bold;
+ul{
+    list-style: none;
 }
-
-
+li{
+    float: left;
+    margin-left: 30px;
+}
 
 
 /* header */
 .container-header{
-    width: 100%;
     background-color: rgba(0,132,253,255);
     display: flex;
-    padding: 30px;
+    padding: 20px;
     justify-content: space-between;
     align-items: center;
 }
 .row-header{
     width: calc(100%/2);
+    display: flex;
+}
+#menù{
+    float: left;
+    display: none;
+}
+.menù-bottom{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 100%;
+    padding: 5px;
+    text-align: center;
+    margin-top: -5px;
+}
+.menù-bottom a{
+    color: black;
 }
 
 #bars{
    text-align: right;
    font-size: 30px;
+   margin-right: -200px;
 }
 #img-header{
-    width: 40%;
+    width: 30%;
 }
 /* main */
 .container{
-    width: 100%;
-    padding: 30px;
+    padding: 20px;
 }
 .container-viola{
-    width: 100%;
     background-color: rgba(151,146,228,255);
-    padding: 30px;
+    padding: 20px;
 }
 
 /* section card */
 .card{
     background-color: rgba(181,221,255,255);
-    border-radius: 10%;
-    margin: 30px;
-    padding: 40px;
+    border-radius: 20px;
+    margin: 30px 0px 30px 0px;
+    padding: 20px;
     
 }
 .card p{
@@ -96,17 +106,21 @@ a{
 }
 .card-bottom{
     background-color: rgba(0,132,253,255);
-    border-radius: 10%;
+    border-radius: 20px;
+    max-width: 50%;
     padding: 5px;
     text-align: center;
-    margin: 40px 0px 40px 0px;
+    margin: 40px 100px 40px 100px;
 }
 #card-img{
-    margin-bottom: -45px;
+    margin-bottom: -25px;
 }
 
 .card i{
     color:rgba(0,132,253,255);
+}
+#logoapple{
+    color: white;
 }
 /* section planning */
 .planning{
@@ -122,14 +136,22 @@ a{
 }
 .planning-card{
     background-color: white;
-    border-radius: 10%;
+    border-radius: 20px;
     margin: 30px;
     padding: 40px; 
+}
+.planning .planning-title{
+    font-family:'PT Sans', sans-serif;
+    font-size: 30px;
+    color:white;
+    text-align: left;
+    margin: 40px 0px 40px 0px;
+    font-weight: bold;
 }
 
 .planning-card .planning-title{
     font-family:'PT Sans', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color:black;
     text-align: center;
     margin: 40px 0px 40px 0px;
@@ -143,15 +165,16 @@ a{
 }
 .planning-bottom{
     background-color: rgba(151,146,228,255);
-    border-radius: 50%;
-    padding: 10px;
+    border-radius: 100px;
+    max-width: 30%;
+    padding: 5px;
     text-align: center;
-    margin: 40px 150px 40px 150px;
+    margin: 40px 100px 40px 100px;
 }
 
 .planning-bottom i{
     color: black;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 /* section testimonials */
@@ -171,9 +194,10 @@ a{
 }
 .testimonial-card{
     background-color: rgba(151,146,228,255);
-    border-radius: 10%;
+    border-radius: 20px;
     margin: 30px;
     padding: 40px;
+    max-width: 100%;
 }
 
 .testimonial-card p{
@@ -216,9 +240,9 @@ a{
 
 .benefit-card{
     background-color:white;
-    border-radius: 10%;
-    margin: 30px;
-    padding: 40px;
+    border-radius: 20px;
+    margin: 30px 0px 30px 0px;
+    padding: 20px;
 }
 
 .card-number{
@@ -242,7 +266,8 @@ a{
 }
 .benefit-bottom{
     background-color: rgba(151,146,228,255);
-    border-radius: 10%;
+    border-radius: 20px;
+    max-width: 50%;
     padding: 5px;
     text-align: center;
     margin: 40px 0px 40px 0px;
@@ -265,8 +290,8 @@ a{
 }
 .aboutus-card{
     background-color:white;
-    border-radius: 10%;
-    padding: 40px;
+    border-radius: 20px;
+    padding: 30px;
 }
 .aboutuscard-title{
     font-family:'PT Sans', sans-serif;
@@ -278,9 +303,10 @@ a{
 }
 .aboutus-bottom{
     background-color: rgba(151,146,228,255);
-    border-radius: 10%;
-    padding: 5px;
-    text-align: left;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    max-width: 60%;
+    text-align: center;
     margin: 40px 0px 40px 0px;
 }
 #aboutus-img{
@@ -332,10 +358,11 @@ a{
 }
 .getstarted-bottom{
     background-color: white;
-    border-radius: 10%;
+    border-radius: 20px;
+    max-width: 50%;
     padding: 5px;
     text-align: center;
-    margin: 40px 0px 0px 0px;  
+    margin: 40px 100px 0px 100px;  
 }
 .getstarted-bottom a{
     color:rgba(151,146,228,255);
@@ -365,11 +392,121 @@ a{
     font-size: 12px;
 }
 
-/* visual 678px (tablet) */
+/* visual 768px (tablet) */
+@media all and (min-width:768px){
 
+    .container , .container-viola{
+        max-width: 100%;
+    }
+    #menù{
+        display: none;
+    }
+    #bars{
+        margin-right: -300px;
+    }
 
+    #containercard{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #containerbenefit{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #aboutus-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card{
+        width: calc(100%/3);
+        flex-grow: 1;
+        margin: 10px;
+        max-width: 30%;
 
+    }
+    #cardprima{
+        max-width: 62%;
+    }
+    .card-bottom {
+        margin-left:100px ;
+        margin-right: 100px;
+    }
+    .planning-bottom{
+        margin-left:200px ;
+    }
+    .testimonial-img{
+        float: left;
+        margin-top: -20px;
+        margin-left: -20px;
 
+    }
+    .benefit-card{
+        width: calc(100%/3);
+        max-width: 100%;
+        flex-grow: 1;
+        margin: 15px;
+    }
+    .aboutus-card{
+        width: calc(100%/3);
+        max-width: 100%;
+        flex-grow: 1;
+        margin: 5px;
+    }
+    .aboutus-bottom{
+       max-width: 80%;
+    }
+    .getstarted-bottom{
+        margin-left: 300px;
+        max-width: 150px;
+    }  
+    }
 
 
 /*  visual  1200px dekstop */
+@media all and (min-width:1200px){
+
+    #img-header{
+        width: 10%;
+    }
+    #bars{
+        display: none;
+    }
+    #menù{
+        display: grid;
+    }
+    #cardprima{
+        display: flex;
+        min-width: 62%;
+        padding: 30px;
+    }
+    #card-img{
+        margin-bottom: -30px;
+    }
+    #containerplanning{
+        display: flex;
+    }
+    .planning-bottom{
+        margin-left: 150px ;
+    }
+    .testimonial-img{
+        margin-top: -10px;
+        margin-left: -10px;
+        width: 120px;
+        height: 120px;
+    }
+    .Benefit-title{
+        margin-right: 300px;
+        margin-left: 300px;
+    }
+    .benefit-card{
+        width: calc(100%/4);
+    }
+    .getstarted-bottom{
+        margin-left: 500px;
+        max-width: 150px;
+    }
+
+}
